@@ -8,7 +8,7 @@ $(document).ready(() => {
                                     <div class="row">
                                         <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 leftContent" id="imgIndex1">
                                             <img src="https://i.postimg.cc/Qd3YYH4t/fitness.png" class="d-block w-100 index index__img imgIndex" title="fitness partners" alt="pareja compañera de rutina de ejercicios">
-                                            <a href="../pages/imc.html" class="btn btn-outline-light">>>><b>Acá puede calcular su IMC</b><<<</a>
+                                            <a href="https://xavier2092.github.io/BMICalculate/pages/imc.html" class="btn btn-outline-light">>>><b>Acá puede calcular su IMC</b><<<</a>
                                         </div>
                                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 centerContent">
                                             <h4 class="index index__title title">Bienvenido a la Calculadora virtual de IMC!</h4>
@@ -18,7 +18,7 @@ $(document).ready(() => {
                                         </div>
                                         <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 rightContent">
                                             <img src="https://i.postimg.cc/D0Qp7hmF/medidas-mujer.png" class="d-block w-100 imgIndex index index__img" title="chica fitness" alt="mujer tomando las medidas de su cintura">
-                                            <a href="../pages/pgc.html" class="btn btn-outline-light">>>><b>Acá puede calcular su PGC</b><<<</a>
+                                            <a href="https://xavier2092.github.io/BMICalculate/pages/pgc.html" class="btn btn-outline-light">>>><b>Acá puede calcular su PGC</b><<<</a>
                                         </div>
                                     </div>
                                 </div>`
