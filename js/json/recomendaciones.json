@@ -1,0 +1,14 @@
+{
+    "id": 1,
+    "pesoIMCBajo": "bajo",
+    "alimentacionIMCBajo":  "Alimentos ricos en carbohidratos y proteínas: Cereales, leche, carnes, batidos proteícos, etc...",
+    "ejerciciosIMCBajo": "Ejercicios anaeróbicos. Ejercicios de corta duración y alta intensidad, con peso agregado. Esto te ayudará a aumentar tu masa muscular.",
+
+    "pesoIMCIdeal": "optimo",
+    "alimentacionIMCIdeal":  "Alimentos ricos en carbohidratos y proteínas: Cereales, leche, carnes, batidos proteícos, etc...",
+    "ejerciciosIMCIdeal": "Ejercicios de poca duración y alta intensidad, puede agregar peso si lo desea, aunque no sería necesario.",
+    
+    "pesoIMCAlto": "alto",
+    "alimentacionIMCAlto":  "Evitar grasas saturadas. Ingerir alimentos con alto índice proteíco, abudante agua. Todo distribuido de manera equitativa en 5-7 comidas al día.",
+    "ejerciciosIMCAlto": "Ejercicios aeróbicos. Ejercicios de larga duración y moderada intensidad: Trote, natación, spinning, etc..."
+}

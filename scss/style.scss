@@ -1,0 +1,232 @@
+/*Import  scss*/
+@charset "utf-8";
+@import "colors";
+@import "sizes";
+
+/*Bloques*/
+/*General*/
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+ }
+ 
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body{
+    @include sizes(100%,100vh);
+    background-image: $background;
+    
+}
+
+#logo{
+    max-width: 30%;
+    max-height: 30%;
+    border: 0;
+}
+
+div{
+    color: whitesmoke;
+    text-align: center;
+    p{
+        padding-left: 10px;
+        text-align: justify;
+    }
+    h3, h4, h5{
+        padding: $paddingTitulos;
+    }
+    .contenido{
+        margin-top: 3%;
+    }
+}
+
+/*Ocultando secciones para animaciones*/
+#indexSlide,  #imcSlide, #pgcSlide{
+    display: none;
+}
+
+.leftContent, .centerContent, .rightContent{
+    display: none;
+}
+
+/*Menu*/
+.header{
+    .header__title{
+        color: $textoColor;
+    }
+    .header__menu{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+/*Botón Enviar*/
+
+.selector{
+    text-align: end;
+    padding-right: 0;
+  }
+
+/*Index*/
+@keyframes miAnimacion {
+    
+    0%{
+        opacity: 1;
+    }
+    20%{
+        opacity: 1;
+    }
+    30%{
+        opacity: 0%;
+    }
+    90%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+} 
+
+.index{
+    .index__img{
+        max-width: 210px;
+        max-height: 340px;
+        margin: 10% auto auto auto;
+        overflow-y: hidden;
+    }
+    .index__title{
+        padding: $paddingTitulos;
+
+    }
+}
+/*IMC*/
+.imc{
+    .imc__title{
+        text-align: justify;
+        padding: $paddingTitulos;
+    }
+    .imc__img{
+        max-width: 100%;
+        max-height: 100%;
+        overflow-y: hidden;
+
+    }
+    .imc__contenido{
+        text-align: justify;
+    }
+
+    .calculo{
+        .calculo__imcBajo{
+            color: $colorIMCBajo;
+        }
+        .calculo__imcNormal{
+            color: $colorIMCNormal;
+        }
+        .calculo__imcAlto{
+            color: $colorIMCAlto;
+        }
+        .calculo__imcMuyAlto{
+            color: $colorIMCMuyAlto;
+        }
+    }
+}
+.labelIMC{
+    text-align: start;
+}
+
+/*PGC*/
+.pgc{
+    .pgc__img{
+        max-width: 180%;
+        margin-left: 10%;
+        margin-top: 15%;
+    }
+    .pgc__content{
+        margin-top: 10px;
+        margin-right: 0;
+        .parrafo{
+            padding-right: 10px;
+            padding-top: 10px;
+        }
+    }
+    .labelPGC{
+        text-align: start;
+    }
+}
+/*------ MODAL ------*/
+.imcBajo{
+    color:$colorIMCBajo;
+}
+.imcNormal{
+    color: $colorIMCNormal;
+}
+.imcAlto{
+    color: $colorIMCAlto;
+}
+.imcMuyAlto{
+    color: $colorIMCMuyAlto;
+}
+
+.modal-content{
+    background-image: $background;
+    color: $textoColor;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+}
+
+.cerrarModal{
+    background-image: $background;
+    border-radius: 50%;
+    font-weight: bolder;
+    border: 2px solid whitesmoke;
+}
+
+.cerrarModal:hover{
+    background-image: $bgBotonCerrarModal;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+}
+
+#resultadoPGCH{
+    color: $colorPGC;
+    background-color: $bgPGCH;
+}
+
+#resultadoPGCM{
+    color: $colorPGC;
+    background-color: $bgPGCM;
+}
+/*-----MEDIASQUERIES con Operadores-----*/
+@media only screen and (max-width:900px) {
+    #index{
+        margin-bottom: $marginBotton*0.1;
+    }
+}
+@media only screen and (max-width:1125px){
+    #imc, #pgc{
+        margin-bottom: $marginBotton*0.1;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 400px){
+  .form_tableIMC{
+    padding-left: 23%;
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 333px){
+    .form_tablePGC{
+      padding-left: 23%;
+    }
+  }
+
+@media only screen and (max-width: 575px){
+    #nombreIMC, #edadIMC, #estaturaIMC, #pesoIMC{
+        margin-left: 50px;
+    }
+    .selector{
+        padding-right: 0;
+    }
+}

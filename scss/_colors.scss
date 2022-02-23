@@ -1,0 +1,20 @@
+/*Colores*/
+/*Background*/
+$colorFondo1: rgb(223, 231, 231);
+$colorFondo2: rgb(0, 0, 0);
+$background: radial-gradient(ellipse at 190% -100%, $colorFondo1, $colorFondo2);
+$bgBotonCerrarModal: radial-gradient(ellipse at 190% -100%, rgb(223, 231, 231),rgb(182, 26, 26));
+
+/*Color de texto*/
+$textoColor: whitesmoke;
+
+/*Resultados del IMC*/
+$colorIMCBajo:rgb(252, 206, 164);
+$colorIMCNormal:rgb(101, 221, 101);
+$colorIMCAlto: orange;
+$colorIMCMuyAlto: red;
+
+/*Resultados del PGC */
+$colorPGC: rgb(39, 46, 54);
+$bgPGCH: rgb(183, 240, 223);
+$bgPGCM: rgb(242, 213, 217);

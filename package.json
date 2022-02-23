@@ -1,0 +1,17 @@
+{
+  "name": "proyectofinaldw",
+  "version": "1.0.0",
+  "description": "Presentacion del proyecto final del curso de Desarrollo Web de CoderHouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css & nodemon server.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
