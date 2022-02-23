@@ -6,13 +6,13 @@ $(d).ready(() => {
     const   header = $('#header');
             header.append(`
                             <div class="col-xl-4 justify-content-center">
-                                <a  class="navbar-brand header__title collapse navbar-collapse" id="titulo" data-target="#carouselExampleCaptions" href="../index.html">Inicio</a>
+                                <a  class="navbar-brand header__title collapse navbar-collapse" id="titulo" data-target="#carouselExampleCaptions" href="https://xavier2092.github.io/BMICalculate/">Inicio</a>
                             </div>
                             <div class="col-xl-4">
-                                <a  class="navbar-brand header__title collapse navbar-collapse justify-content-center" id="titulo" data-target="#carouselExampleCaptions" href="../pages/imc.html">IMC</a>
+                                <a  class="navbar-brand header__title collapse navbar-collapse justify-content-center" id="titulo" data-target="#carouselExampleCaptions" href="https://xavier2092.github.io/BMICalculate/pages/imc.html">IMC</a>
                             </div>
                             <div class="col-xl-4">
-                                <a  class="navbar-brand header__title collapse navbar-collapse justify-content-end" id="titulo" data-target="#carouselExampleCaptions" href="../pages/pgc.html">PGC</a>
+                                <a  class="navbar-brand header__title collapse navbar-collapse justify-content-end" id="titulo" data-target="#carouselExampleCaptions" href="https://xavier2092.github.io/BMICalculate/pages/pgc.html">PGC</a>
                             </div> 
                         `);
 
@@ -20,9 +20,9 @@ $(d).ready(() => {
 
     const   slides = $('#slides');
             slides.append(`           
-                            <li onclick="location.href='../index.html'" id="indexSlide"></li>
-                            <li onclick="location.href='../pages/imc.html'" id="imcSlide"></li>
-                            <li onclick="location.href='../pages/pgc.html'" id="pgcSlide"></li>
+                            <li onclick="location.href='https://xavier2092.github.io/BMICalculate/'" id="indexSlide"></li>
+                            <li onclick="location.href='https://xavier2092.github.io/BMICalculate/pages/imc.html'" id="imcSlide"></li>
+                            <li onclick="location.href='https://xavier2092.github.io/BMICalculate/pages/pgc.html'" id="pgcSlide"></li>
                         `);
 
     $("#indexSlide").show(200);
